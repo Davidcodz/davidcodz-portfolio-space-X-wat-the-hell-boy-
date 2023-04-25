@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:"lato";
+    overflow-x: hidden;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px,rgba(255, 255, 255, .35);
+    z-index: 9999;
+    padding: 10rem;
+    text-align: center;
+}
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 300vh;
+    width: 200vw;
+    z-index: -1;
+    overflow: hidden;
+}

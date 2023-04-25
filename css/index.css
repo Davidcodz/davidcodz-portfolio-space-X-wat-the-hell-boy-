@@ -1,0 +1,140 @@
+body {
+    background-color: #0f0f0f;
+    color: white;
+    filter: grayscale();
+    text-align: center;
+    background: linear-gradient( to top, rgb(128, 122, 122) 10%, rgb(105, 77, 105) 50%);
+}
+
+@font-face {
+    font-family: main;
+    src: url(lucy.otf);
+}
+@font-face {
+    font-family: second;
+    src: url(nexa.ttf);
+}
+
+/* IGNORE */
+
+/* MAIN */
+
+main {
+    margin-left: 150%;
+    top: 50vmin;
+    width: 80%;
+}
+#article{
+    margin-top: 90vmin;
+}
+
+/* MAIN */
+
+/* container */
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* container */
+
+/* header */
+
+.header h1 {
+    font-size: 3.1rem;
+    text-shadow: 0 0 20px white;
+    z-index: -0.1;
+}
+
+.header, h1{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 25%;
+    margin-top: -1vmin;
+}
+
+/* for the particle . js style css theme */
+#bg{
+    position: absolute;
+    background-color: black;
+    background: linear-gradient(to bottom, black 50%, transparent);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+/* for the particle . js style css theme */
+
+/* universal styling */
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: main;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: main;
+    margin-top: 100vmin;
+}
+
+h2 {
+    font-family: main;
+    margin-bottom: 50vmin;
+}
+
+
+p {
+    font-family: second;
+}
+
+/* universal styling */
+
+/* header */
+
+/* main section */
+
+main {
+    /* later */
+    font-family: main;
+    font-size: 1rem;
+}
+main img {
+    filter: grayscale();
+    opacity: 0.4;
+    min-width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100vmin;
+}
+
+/* main section */
+
+/* secondary section */
+/* secondary section */
+
+/* id transform property or html element */
+#main{
+    content: "";
+    position: relative;
+    animation-name: fade;
+    animation: ease-in-out 3s;
+
+   
+}
+
+/* id transform property or html element */
+
+
+
